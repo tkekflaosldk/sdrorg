@@ -1,0 +1,2 @@
+function resizeParentFrame(){try{if(typeof parent.resizeFrame==='function'){setTimeout(function(){parent.resizeFrame();},1);}}catch(e){}}
+function resizePopUp(){if(typeof window_resize==='function'){setTimeout(function(){window_resize();},200);}}
